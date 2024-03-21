@@ -1,0 +1,151 @@
+
+*{
+    background: #E5E5E5;
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f6f2f2;
+}
+
+.logo-container, .name-container, .profile-picture-container {
+    margin: 1% 1%;  
+}
+.logoAlura {
+    width: 30px; 
+}
+
+.name-container h1 {
+    font-size: 50px; 
+    margin: 0; 
+    color: #0b3207; 
+}
+
+.profile-picture {
+    width: 100px; 
+    border-radius: 50%; 
+}
+
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{
+    color: #0A3871;/*
+   .text-area:focus{
+        outline: none;*/
+    }
+    .text-area:focus{
+        outline: none;
+    }
+.mensagem{
+    background-color: white;
+    background-image: url('/assets/boneco.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 74px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position:fixed;
+
+}
+.mensagem:focus{
+    outline: none;
+}
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-descriptografar{
+    background: #D8DF;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+
+}
+.btn-encriptografar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+
+
+
+.informacao{
+    color: #495057;
+    font-size: 18px;
+}
+
+
+
+
+footer {
+    
+    color: #de2121;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    margin-right: 130px; /* Espaçamento entre os blocos de informação */
+}
+
+.info:last-child {
+    margin-right: 0; /* Remove o espaçamento do último bloco */
+}
+
+.info h4 {
+    margin: 0 10px 0 0; /* Espaçamento entre o título e o texto */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+.info p, .info a {
+    color: #110883;
+    text-decoration: none;
+    margin: 0;
+    font-size: 14px; /* Tamanho da fonte */
+}
